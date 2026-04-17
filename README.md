@@ -109,79 +109,72 @@ SCREEN SHOT
 
 
 Installation Steps
-
 Step 1: Upload the server-security-info folder to the /wp-content/plugins/ directoryStep 2: Activate the plugin through the Plugins menu in WordPressStep 3: Go to Server Info menu in admin sidebarStep 4: All information will be displayed automatically
 
 Usage Tips
-
 Use Dark Mode for comfortable viewing in low lightEnable Auto Refresh for real-time monitoringRun Security Fixes periodically to keep your site secureCheck API endpoints to know which data is exposedMonitor storage to avoid running out of space
 
 Requirements
-
 WordPress 5.0 or higherPHP 7.2 or higherMySQL 5.6 or higher
 
 Support
-
 For support, feature requests, or bug reports:
-
 Email: onexusdev@gmail.comPhone: +88096 47 882 445Phone: +880134 67 52 141Website: [https://onexusdev.xyz](https://onexusdev.xyz/)
 
 Developer
-
-Moursalin IslamWordPress Plugin Developer
+Moursalin Islam WordPress Plugin Developer
 
 Changelog
 
 Version 1.0
 
-Initial releaseServer information displayPHP configuration viewerSecurity status checkerAPI endpoints checkerUser enumeration protectionDirectory indexing protectionReal-time monitorOne-click security fixesDark and Light modeEnglish and Bengali language support
+### Initial release
 
+- Server information 
+- displayPHP configuration 
+- viewer Security status 
+- checker API endpoints 
+- checker User enumeration 
+- protection Directory 
+- indexing protection 
+- Real-time monitor
+- One-click security fixes
+- Dark and Light mode
+- English and Bengali language support
 Frequently Asked Questions
 
 Does this plugin slow down my site?
-
 No, this plugin is extremely lightweight (approximately 25KB) and only loads on admin pages. It does not affect your front-end performance.
 
 Does it work with all hosting providers?
-
 Yes, it works with all WordPress hosting providers including shared hosting, VPS, dedicated servers, and managed WordPress hosting.
 
 Is there a premium version?
-
 No, this plugin is completely free and open source. All features are available for free.
 
 How to fix user enumeration?
-
 Simply click the Fix Enumeration button in the User Enumeration card. The plugin will automatically add the necessary rules to your .htaccess file.
 
 How to disable directory listing?
-
 Click the Fix Directory Listing button in the Directory Indexing card. This adds Options -Indexes to your .htaccess file.
 
 Can I use it on multisite network?
-
 Yes, the plugin works perfectly on WordPress multisite installations. You can network activate it or on individual sites.
 
 Does it work with caching plugins?
-
 Yes, this plugin works alongside all caching plugins including W3 Total Cache, WP Rocket, LiteSpeed Cache, and others.
 
 Will it work on Windows servers?
-
 Yes, the plugin works on both Linux and Windows servers. Some features like CPU load may be limited on Windows.
 
 How often does the real-time monitor check?
-
 The real-time monitor checks every 30 seconds when auto-refresh is enabled. You can also manually check anytime.
 
 Can I translate the plugin?
-
 Yes, the plugin supports translation. You can translate it into any language using PO files.
 
 License
-
 This plugin is licensed under GPLv3 or later. You are free to use, modify, and distribute it.
 
 Links
-
 Developer Website: [https://onexusdev.xyz](https://onexusdev.xyz/)Support Email: onexusdev@gmail.comPhone: +88096 47 882 445Phone: +880134 67 52 141
