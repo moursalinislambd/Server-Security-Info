@@ -1,3 +1,5 @@
+<img width="1280" height="640" alt="Image" src="https://github.com/user-attachments/assets/de9f6f97-0cd7-4fb7-b762-56ca3d82df59" />
+
 Server & Security Info
 ----------------------
 
