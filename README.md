@@ -104,7 +104,10 @@ Performance Stats
     
 
 SCREEN SHOT
-!(https://imgur.com/a/C7ZZ5R1)
+
+<img width="1896" height="1454" alt="Image" src="https://github.com/user-attachments/assets/0fa771c1-7397-47f6-991c-ec1d2288b989" />
+
+
 Installation Steps
 
 Step 1: Upload the server-security-info folder to the /wp-content/plugins/ directoryStep 2: Activate the plugin through the Plugins menu in WordPressStep 3: Go to Server Info menu in admin sidebarStep 4: All information will be displayed automatically
