@@ -1,0 +1,47 @@
+:root{--bg:#f0f2f5;--card:#fff;--text:#1a2a3a;--border:#e2e8f0;--primary:#2563eb;--success:#10b981;--danger:#ef4444;--warning:#f59e0b}
+[data-theme="dark"]{--bg:#0f172a;--card:#1e293b;--text:#f1f5f9;--border:#334155}
+.ssi-wrap{background:var(--bg);padding:20px;margin:-20px -20px 0 -20px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.ssi-container{max-width:1600px;margin:0 auto}
+.ssi-header{background:var(--card);border-radius:12px;padding:15px 20px;margin-bottom:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;border:1px solid var(--border)}
+.ssi-header h1{margin:0;font-size:20px;display:inline-block;margin-right:10px}
+.ssi-badge{background:var(--primary);color:#fff;padding:2px 8px;border-radius:12px;font-size:10px}
+.ssi-btn{background:var(--bg);border:1px solid var(--border);color:var(--text);padding:6px 12px;border-radius:6px;cursor:pointer;font-size:12px;transition:all 0.2s}
+.ssi-btn:hover{background:var(--primary);color:#fff}
+.ssi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px}
+.ssi-card{background:var(--card);border-radius:12px;border:1px solid var(--border);overflow:hidden;transition:transform 0.2s}
+.ssi-card:hover{transform:translateY(-2px)}
+.ssi-card-title{display:flex;align-items:center;gap:8px;padding:12px 15px;background:var(--bg);border-bottom:1px solid var(--border)}
+.ssi-card-title h3{margin:0;font-size:14px}
+.ssi-card-body{padding:12px}
+.ssi-row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--border);font-size:12px}
+.ssi-row:last-child{border:0}
+.ssi-progress{background:var(--border);border-radius:6px;height:6px;margin-bottom:12px;overflow:hidden}
+.ssi-progress div{background:linear-gradient(90deg,var(--success),var(--primary));height:100%;transition:width 0.3s}
+.ssi-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;text-align:center}
+.ssi-stats div{background:var(--bg);padding:10px;border-radius:8px}
+.ssi-stats span{display:block;font-size:22px;font-weight:bold;color:var(--primary)}
+.ssi-stats label{font-size:10px;color:var(--text);opacity:0.7}
+.ssi-good{color:var(--success);font-weight:bold}
+.ssi-bad{color:var(--danger);font-weight:bold}
+.ssi-warning{color:var(--warning);font-weight:bold}
+.ssi-note{font-size:10px;color:var(--text);opacity:0.6;margin-top:10px;padding-top:8px;border-top:1px dashed var(--border)}
+.ssi-fix-btn{background:var(--warning);border:none;color:#fff;padding:8px 12px;border-radius:6px;cursor:pointer;font-size:11px;width:100%;margin-top:8px;transition:opacity 0.2s}
+.ssi-fix-btn:hover{opacity:0.9}
+.ssi-primary{background:var(--primary);color:#fff;border:none;padding:8px 16px;border-radius:6px;cursor:pointer;font-size:12px;transition:opacity 0.2s}
+.ssi-primary:hover{opacity:0.9}
+.ssi-monitor{display:flex;align-items:center;gap:12px;padding:12px;background:var(--bg);border-radius:8px;margin-bottom:12px}
+.ssi-led{width:12px;height:12px;border-radius:50%;background:gray}
+.ssi-led.online{background:var(--success);box-shadow:0 0 6px var(--success);animation:ssiPulse 1.5s infinite}
+.ssi-led.offline{background:var(--danger)}
+@keyframes ssiPulse{0%,100%{opacity:1}50%{opacity:0.5}}
+.ssi-metrics{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:12px}
+.ssi-metrics div{background:var(--bg);padding:10px;border-radius:6px;text-align:center}
+.ssi-metrics label{display:block;font-size:10px;opacity:0.7}
+.ssi-metrics span{font-size:16px;font-weight:bold;color:var(--primary)}
+.ssi-live{background:var(--danger);color:#fff;padding:2px 8px;border-radius:12px;font-size:8px;margin-left:auto;animation:ssiPulse 1.5s infinite}
+.ssi-developer-card{text-align:center}
+.ssi-developer-card h4{margin:0 0 12px 0;color:var(--primary);font-size:16px}
+.ssi-developer-card div{padding:5px 0;font-size:12px}
+.ssi-developer-card a{color:var(--primary);text-decoration:none}
+.ssi-developer-card a:hover{text-decoration:underline}
+@media(max-width:768px){.ssi-header{flex-direction:column;text-align:center}.ssi-grid{grid-template-columns:1fr}}
